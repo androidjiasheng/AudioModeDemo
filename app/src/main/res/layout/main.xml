@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/main_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"/>
+
+    <Button
+        android:layout_toRightOf="@+id/main_play"
+        android:id="@+id/main_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"/>
+    <Button
+        android:text="增加声音"
+        android:layout_below="@+id/main_play"
+        android:id="@+id/addvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_toRightOf="@+id/addvoice"
+        android:layout_below="@+id/main_play"
+        android:text="降低声音"
+        android:id="@+id/reducevoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="静音"
+        android:layout_below="@id/addvoice"
+        android:id="@+id/novoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
